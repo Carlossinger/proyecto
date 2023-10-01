@@ -140,14 +140,14 @@ body{
     margin-bottom: 16px;
 }
 
-.copy__section{
+.copy_section{
     color: var(--black2);
     font-size: 22px;
     line-height: 32px;
     margin-bottom: 60px;
 }
 
-.copy__section--modifier{
+.copy_section--modifier{
     text-align: center;
     margin-bottom: 32px;
 }
@@ -171,27 +171,27 @@ body{
     box-shadow: 0 0 6px var(--color_shadow);
 }
 
-.card__img{
+.card_img{
     width: 95%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
 }
 
-.cards__text{
+.cards_text{
     text-align: left;
     width: 90%;
     margin: 0 auto;
 }
 
-.card__list{
+.card_list{
     color: var(--gold2);
     font-weight: 700;
     margin: 25px 0 12px;
     font-size: 18px;
 }
 
-.card__title{
+.card_title{
     font-size: 40px;
     color: #fff;
     margin-bottom: 8px;
@@ -214,7 +214,7 @@ body{
     padding:12px 0;
 }
 
-.card__date{
+.card_date{
     color:var(--gold2) ;
     font-size: 18px;
     font-weight: bold;
@@ -235,14 +235,14 @@ body{
     position: relative;
 }
 
-.background__img{
+.background_img{
     width: 68%;
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
 }
 
-.background__text{
+.background_text{
     position: absolute;
     width: 100%;
     bottom: 30px;
@@ -250,7 +250,7 @@ body{
     color: #fff;
 }
 
-.background__title{
+.background_title{
     font-size: 24px;
     margin-bottom: 4px;
 }
@@ -266,7 +266,7 @@ body{
     flex-wrap: wrap;
 }
 
-.testimony__card{
+.testimony_card{
     width: 30%;
     height: 500px;
     background: linear-gradient(180deg, #3055303b 0%,#1a1b1f 100%);
@@ -275,7 +275,7 @@ body{
     margin-bottom: 30px;
 }
 
-.testimony__img{
+.testimony_img{
     width: 100%;
     height: 100%;
     border-radius: inherit;
@@ -283,7 +283,7 @@ body{
     object-position: center top;
 }
 
-.testimony__copy{
+.testimony_copy{
     position: absolute;
     bottom: 20px;
     left: 5%;
@@ -298,43 +298,42 @@ body{
     align-items: center;
 }
 
-.testimony__copy--modifier{
+.testimony_copy--modifier{
     background: none;
     box-shadow: none;
 }
 
-.testimony__logo{
+.testimony_logo{
     font-size: 40px;
     margin-right: 15px;
     display: inline-block;
 }
 
-.testimony__name{
+.testimony_name{
     font-size: 24px;
     line-height: 28px;
 }
 
-.testimony__position{
+.testimony_position{
     color:var(--gray);
 }
 
-.testimony__text{
-
+.testimony_text{
     padding: 40px 0;
     width: 90%;
     margin: 0 auto;
 }
 /* REVISAR */
-.google__logo{
+.google_logo{
     margin-bottom: 20px;
 }
 
-.testimony__history{
+.testimony_history{
     font-size: 21px;
     font-weight: 300;
 }
 /* HASTA ACA CREO*/
-.testimony__info{
+.testimony_info{
     width: 70%;
 }
 
@@ -355,7 +354,7 @@ body{
     margin: 0 auto;
 }
 
-.check__item{
+.check_item{
     width: 30%;
     padding-right: 10px;
     display: flex;
@@ -374,11 +373,11 @@ body{
     font-size: 40px;
 }
 
-.check__number{
+.check_number{
     font-weight: 700;
 }
 
-.check__copy{
+.check_copy{
     font-weight: 300;
 }
 
@@ -398,7 +397,7 @@ body{
 }
 
 
-.newsletter__input{
+.newsletter_input{
     width: 100%;
     height: 100%;
     padding: 22px, 10px;
@@ -408,7 +407,7 @@ body{
     border: 1px solid var(--black1);
 }
 
-.newsletter__submit{
+.newsletter_submit{
     position: absolute;
     right: 8px;
     top: 10%;
@@ -427,13 +426,13 @@ body{
     background: #fafafa;
 }
 
-.footer__caption{
+.footer_caption{
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
 }
 
-.title__footer{
+.title_footer{
     font-size: 24px;
     margin-bottom: 32px;
 }
@@ -442,11 +441,11 @@ body{
     width: 50%;
 }
 
-.download__app{
+.download_app{
     display: flex;
 }
 
-.download__item{
+.download_item{
     display: flex;
     padding: 18px 12px;
     border-radius: 6px;
@@ -457,16 +456,16 @@ body{
     margin-bottom: 16px;
 }
 
-.download__logo{
+.download_logo{
     font-size: 40px;
     margin-right: 20px;
 }
 
-.download__title{
+.download_title{
     font-size: 18px;
 }
 
-.footer__copy{
+.footer_copy{
     width: 100%;
     color: var(--black2);
     display: flex;
@@ -477,18 +476,18 @@ body{
     width: 100%;
 }
 
-.politica__privacidad{
+.politica_privacidad{
     color: inherit;
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
 }
 
-.politica__privacidad:hover{
+.politica_privacidad:hover{
     text-decoration: underline;
 }
 
-.politica__privacidad--margin{
+.politica_privacidad--margin{
     margin-right: 10px;
 }
 
@@ -502,13 +501,13 @@ body{
     color: var(--black2);
 }
 
-.socialmedia__icon{
+.socialmedia_icon{
     font-size: 18px;
     margin-right: 30px;
     display: inline-block;
 }
 
-.socialmedia__legend{
+.socialmedia_legend{
     color: var(--black2);
     margin-right: 16px;
 }
@@ -520,30 +519,30 @@ body{
     color: #fff;
 }
 
-.item__contact{
+.item_contact{
     width: 25%;
     padding: 60px 0;
     text-align: center;
     background: linear-gradient(180deg, var(--black2) 0%,var(--black1) 100%);
 }
 
-.item__contact--gold{
+.item_contact--gold{
     background: linear-gradient(180deg, #F7CE90 0%, #F48D76 100%);
     color: var(--black1);
 }
 
-.contact__icon{
+.contact_icon{
     font-size: 14px;
     color: var(--gold1);
     line-height: 20px;
     margin-right: 4px;
 }
 
-.contact__icon--modifier{
+.contact_icon--modifier{
     color: var(--black1);
 }
 
-.contact__title{
+.contact_title{
     font-size: 16px;
     line-height: 20px;
 }
@@ -586,11 +585,11 @@ body{
         justify-content: space-evenly;
     }
 
-    .testimony__card{
+    .testimony_card{
         width: 45%;
     }
 
-    .check__item{
+    .check_item{
         width: 45%;
         margin-bottom: 35px;
     }
@@ -603,11 +602,11 @@ body{
         width: 100%;
     }
 
-    .download__app{
+    .download_app{
         justify-content: space-between;
     }
 
-    .download__item{
+    .download_item{
     width: 45%;
     }
 
@@ -616,11 +615,11 @@ body{
         margin-bottom: 40px;
     }
 
-    .socialmedia__icon{
+    .socialmedia_icon{
         font-size: 18px;
     }
 
-    .socialmedia__legend{
+    .socialmedia_legend{
         font-size: 18px;
     }
 }
@@ -686,7 +685,7 @@ body{
         text-align: center;
     }
 
-    .copy__section{
+    .copy_section{
         font-size: 20px;
         text-align: center;
     }
@@ -704,7 +703,7 @@ body{
         width: 65%;
     }
 
-    .card__title{
+    .card_title{
         font-size: 35px;
     }
 
@@ -714,19 +713,18 @@ body{
 
     .background{
         width: 65%;
-        margin-bottom: 
-        40px;
+        margin-bottom: 40px;
     }
 
-    .background__copy{
+    .background_copy{
         display: none;
     }
 
-    .testimony__card{
+    .testimony_card{
         width: 65%;
     }
 
-    .testimony__name{
+    .testimony_name{
         font-size: 20px;
     }
 
@@ -734,7 +732,7 @@ body{
         width: 80%;
     }
 
-    .item__contact{
+    .item_contact{
         width: 100%;
         padding: 30px 0;
     }
@@ -758,11 +756,11 @@ body{
         width: 95%;
     }
 
-    .testimony__card{
+    .testimony_card{
         width: 95%;
     }
 
-    .testimony__history{
+    .testimony_history{
         font-size: 20px;
     }
 
@@ -779,22 +777,22 @@ body{
         display: block;
     }
 
-    .check__item{
+    .check_item{
         width: 100%;
         border: none;
         padding: none;
         justify-content: center;
     }
 
-    .download__item{
+    .download_item{
         width: 49%;
     }
 
-    .download__title{
+    .download_title{
         font-size: 16px;
     }
 
-    .download__logo{
+    .download_logo{
         font-size: 30px;
     }
 }
