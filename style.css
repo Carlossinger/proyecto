@@ -1,6 +1,6 @@
   
  
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+  /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 
 
 
@@ -242,10 +242,11 @@ display: none;
     font-size: 20px;
     color: var(--gray);
     text-shadow: var(--shadow) var(--color_shadow);
-    margin: 15px 0;
+    margin: 400px 15px;
 }
 
 .copy_active{
+    
     font-weight: 700;
 }
 
@@ -458,4 +459,5 @@ padding:  15px;
 
 
 
+ 
  
