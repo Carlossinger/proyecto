@@ -250,7 +250,7 @@ display: none;
 
 .hero_main{
     min-height: 100vh;
-    background-image: url(/lobo2.jpg);
+    background-image: url(imagenes/lobo2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
